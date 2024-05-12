@@ -1,0 +1,133 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  text-align: left;
+  background-color: #fff;
+  min-height: 100%;
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.4;
+  position: relative;
+}
+
+header {
+  display: block;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 500px;
+  padding-right: 300px;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 1.32812rem;
+  line-height: inherit;
+  white-space: nowrap;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.navbar-nav {
+  box-sizing: border-box;
+  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-collapse {
+  flex-grow: 1;
+  flex-basis: 100%;
+  align-items: center;
+}
+
+.navbar > .container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+#main-nav .navbar {
+  background-color: #000;
+}
+
+#main-nav #navbar-main {
+  z-index: 2;
+}
+
+#main-nav .navbar-nav .nav-link {
+  color: #30c2f8;
+  white-space: nowrap;
+  align-items: center;
+  padding-right: 20px;
+  font-size: .9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (width >= 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    flex-basis: auto;
+    display: flex !important;
+  }
+
+  .justify-content-lg-end {
+    justify-content: flex-end !important;
+  }
+}
+
+@media (width >= 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (width >= 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (width >= 992px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+}
+/*# sourceMappingURL=index.4d663569.css.map */
